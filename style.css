@@ -82,6 +82,7 @@ background-color: paleturquoise;
     width: 1320px;
     height: 810px;
     margin: auto;
+    margin-bottom: 100px;
 }
 .images{
     display: flex;
@@ -89,5 +90,10 @@ background-color: paleturquoise;
     background-repeat: no-repeat;
     background-position: right;
     
+    
+}
+.our-product{
+    width: 1320px;
+    margin: auto;
 }
 
