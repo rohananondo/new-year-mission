@@ -1,0 +1,66 @@
+.banner{
+    background-image: url(images/Banner\ Image.png);
+    width: 1320px;
+height: 600px;
+border-radius: 16px;
+
+margin: auto;
+margin-bottom: 100px;
+
+
+}
+.nav{
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+}
+#banner-title{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 90px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+#banner-header{
+    color: #FFF;
+margin-top: 0%;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 95px; 
+text-align: center;
+}
+.all-categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.button{
+    padding: 10px 20px; font-size: 20px; font-weight: bold;background-color: red;color: white; border: none; border-radius: 16px;
+}
+.party-section{
+    background-image: url(images/Vectorrr.png);
+    width: 1320px;
+height: 600px;
+margin: auto;
+margin-bottom: 100px;
+
+}
+.date-section{
+    margin: auto;
+    width: 1320px;
+height: 282px;
+background-color: paleturquoise;
+ text-align: center;
+ border-radius: 16px;
+ 
+}
