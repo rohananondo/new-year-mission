@@ -62,5 +62,32 @@ height: 282px;
 background-color: paleturquoise;
  text-align: center;
  border-radius: 16px;
- 
+ margin-bottom: 100px;
 }
+.new-offer-section{
+    display: flex;
+    width: 1320px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.holiday-sale{
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+}
+.offer-image{
+    background-image: url(images/Rectangle\ 2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 810px;
+    margin: auto;
+}
+.images{
+    display: flex;
+    background-image: url(images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
