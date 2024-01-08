@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .banner{
     background-image: url(images/Banner\ Image.png);
     width: 1320px;
@@ -22,10 +25,12 @@ margin-bottom: 100px;
     color: #FFF;
 text-align: center;
 font-family: Merriweather;
-font-size: 90px;
+font-size: 40px;
 font-style: normal;
-font-weight: 400;
+font-weight: 150;
 line-height: normal;
+margin-bottom: 0;
+margin-top: 180px;
 
 }
 #banner-header{
@@ -47,6 +52,9 @@ text-align: center;
 .button{
     padding: 10px 20px; font-size: 20px; font-weight: bold;background-color: red;color: white; border: none; border-radius: 16px;
 }
+.time{
+    color: red;
+}
 .party-section{
     background-image: url(images/Vectorrr.png);
     width: 1320px;
@@ -59,7 +67,7 @@ margin-bottom: 100px;
     margin: auto;
     width: 1320px;
 height: 282px;
-background-color: paleturquoise;
+background-color: linen;
  text-align: center;
  border-radius: 16px;
  margin-bottom: 100px;
@@ -95,5 +103,66 @@ background-color: paleturquoise;
 .our-product{
     width: 1320px;
     margin: auto;
+    margin-bottom: 100px;
 }
 
+.subscribe-section{
+    width: 1320px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.05);
+    padding: 30px;
+    margin-bottom: 100px;
+}
+.e-mail{
+text-align: center;
+}
+.e-mail a{
+    padding: 17px;
+    background-color: red; 
+    font-size: 20px; 
+    font-weight: 600;
+     text-decoration: none;
+     color: white;
+     border-radius:  0px 50px  50px 0px;
+
+}
+footer{
+    background-color: black;
+    padding: 80px;
+}
+.footer-address{
+    display: flex;
+justify-content: space-between;   
+}
+.address{
+    color: white;
+}
+.contact{
+    color: white;
+    
+}
+.social-network{
+text-align: center;
+margin: 40px;
+
+}
+.social-network img{
+    margin-left: 10px;
+
+}
+.copyright{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright a{
+    text-decoration: none;
+    color: white;
+   
+}
+footer h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 10px;
+}
