@@ -88,15 +88,17 @@ background-color: linen;
     background-position: bottom;
     background-repeat: no-repeat;
     width: 1320px;
-    height: 810px;
+    height: 738px;
     margin: auto;
     margin-bottom: 100px;
+   
 }
 .images{
     display: flex;
     background-image: url(images/Rectangle\ 1.png);
     background-repeat: no-repeat;
     background-position: right;
+    
     
     
 }
