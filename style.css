@@ -105,6 +105,15 @@ background-color: linen;
     margin: auto;
     margin-bottom: 100px;
 }
+.product-image img{
+   margin-right: 30px;
+   margin-bottom: 30px;
+   width: 400px;
+   border-radius: 16px;
+}
+.product-image img:hover{
+    box-shadow:0 10px 12px 10px rgba(0, 0, 0, 0.2), 0 16px 20px 10px rgba(0, 0, 0, 0.19);
+}
 
 .subscribe-section{
     width: 1320px;
@@ -117,7 +126,8 @@ background-color: linen;
 .e-mail{
 text-align: center;
 }
-.e-mail a{
+.Subscribe-button{
+    border: 0;
     padding: 17px;
     background-color: red; 
     font-size: 20px; 
